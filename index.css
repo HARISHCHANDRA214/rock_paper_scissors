@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+div{
+    min-height: 50px;
+    
+}
+.header{
+    font-size: 2em;
+}
+.score, .decision, .choices{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+button{
+    height: 10%;
+    width: 10%;
+    background-color: white;
+    border: 0px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
